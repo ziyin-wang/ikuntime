@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='mypackage',
-    version='0.1',
+    name='KunTimeChange',
+    version='11.4',
     packages=find_packages(),
     install_requires=[
         
