@@ -36,6 +36,24 @@ kun.ikuntime(10,30)
 
 
 ---
+## 示例程序 ##
+```python
+import time as t
+import KunTimeChange as k
+
+hour = int(input("请输入小时：    （時を入力してください:）"))
+minute = int(input("请输入分钟：      （分を入力してください:）"))
+
+if hour >= 24 or hour < 0 or minute >= 60 or minute < 0:
+	print ("Error 101: 输入数据错误   (エラー 101: データ入力エラー)")
+	t.sleep(5)
+	exit()
+
+kun.ikuntime(hour,minute)
+```
+
+
+---
 ## 备注： ##
 ***输出结果后的.0仍然是个bug。后续我会修改的。具体什么时候看心情。。。***
 
