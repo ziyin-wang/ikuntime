@@ -25,6 +25,7 @@ import KunTimeChange
 
 ---
 ## 示例： ##
+### 示例代码 ###
 ```python
 import time
 import KunTimeChange as kun
@@ -35,8 +36,8 @@ kun.ikuntime(10,30)
 输出结果：“4.0坤时12.0坤分”
 
 
----
-## 示例程序 ##
+
+### 示例程序 ###
 ```python
 import time as t
 import KunTimeChange as k
@@ -51,6 +52,8 @@ if hour >= 24 or hour < 0 or minute >= 60 or minute < 0:
 
 kun.ikuntime(hour,minute)
 ```
+### 注意事项 ###
+**本语句执行完毕5s后自动退出**
 
 
 ---
